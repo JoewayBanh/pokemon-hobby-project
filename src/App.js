@@ -1,24 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState, Suspense } from "react";
+import PokeModal from "./Components/PokeModal";
+const PokemonInfo = React.lazy(() => import("./Components/PokemonInfo"));
 
 function App() {
+  const [pokemon, setPokemon] = useState(null);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <h1 style={{ textAlign: "center", fontSize: "3rem", margin: "2rem" }}>
+        API call project
+      </h1>
+      <PokeModal pokemon={pokemon} setPokemon={setPokemon} />
+      <Suspense fallback={<h2 style={{ textAlign: "center" }}>Loading...</h2>}>
+        <PokemonInfo pokemon={pokemon} setPokemon={setPokemon} />
+      </Suspense>
+    </>
   );
 }
 

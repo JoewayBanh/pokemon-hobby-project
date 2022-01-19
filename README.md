@@ -1,3 +1,13 @@
+#Hobby projekt
+
+Jeg tilføjer småting jeg lærer her og der til dette projekt.
+
+Tilføjet:
+** axios
+** asynchronous programming
+** modals (react-modal)
+** React.lazy()
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: aliceblue;
+}
+.pokemon-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1.25rem;
+  width: 30%;
+  border: 2px solid #f8f8f8;
+  border-radius: 0.5rem;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+  font-size: 1.2em;
+  margin: 5vh auto;
+  background: white;
+}
+
+.pokemon-card img {
+  display: flex;
+  min-height: 10rem;
+  margin-right: 1.5rem;
+}
+.pokemon-info {
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem;
+  line-height: 1.6;
+  align-items: center;
+}
+.pokemon-card button {
+  padding: 1rem;
+  font-size: 1.2rem;
+  background-color: rgb(235, 235, 200);
+  border-radius: 1rem;
+  cursor: pointer;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.pokemon-card button:active {
+  background-color: rgb(187, 187, 157);
+}
