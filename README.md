@@ -3,10 +3,12 @@
 Jeg tilføjer småting jeg lærer her og der til dette projekt.
 
 Tilføjet:
-* axios
-* asynchronous programming
-* modals (react-modal)
-* React.lazy()
+
+- axios
+- asynchronous programming
+- modals (react-modal)
+- React.lazy()
+- styled components
 
 # Getting Started with Create React App
 
