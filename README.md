@@ -1,4 +1,4 @@
-# Hobby projekt
+# Hobby project
 
 This is a project I created where I implement new features and tech I learn about.
 
