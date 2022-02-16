@@ -1,15 +1,15 @@
 # Hobby projekt
 
-Jeg tilføjer småting jeg lærer her og der til dette projekt.
+This is a project I created where I implement new features and tech I learn about.
 
-Tilføjet:
+Previously added:
 
 - axios
 - asynchronous programming
 - modals (react-modal)
 - React.lazy()
 - styled components
-
+<br/>
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
